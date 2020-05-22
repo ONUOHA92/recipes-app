@@ -14,13 +14,19 @@ body{
   letter-spacing: 0.5rem;
 }
 
-.header-hero{
+.header-hero,
+.default-hero{
   min-height: calc(100vh - 0vh);
-   background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)),url("./images/homepage.jpg")center/cover no-repeat;
+   background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)),url("./images/vegetable.jpeg")center/cover no-repeat;
   
 }
 
  h1.align-middle{
-  margin-top: 14rem !important;
+  margin-top: 16rem !important;
   color: #f15025 !important;
-} 
+}
+
+.default-hero{
+  background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)),url("./images/homepage.jpg")center/cover no-repeat;
+  
+}
