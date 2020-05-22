@@ -21,7 +21,7 @@ function Header({children,title, StyleClass}) {
 }
 
 Header.defaultProps = {
-    title : 'default title',
+     title : 'default title',
     StyleClass: "header-hero"
 }
 
