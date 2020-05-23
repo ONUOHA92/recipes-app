@@ -23,7 +23,7 @@ function App() {
              <Route path='/' exact component={Home} />
              <Route path='/recipes' exact component={Recipies} />
              <Route path='/recipes/:id' component={SingleRecipies} />
-             <Route  component={Dafault} />
+             <Route   component={Dafault} />
              
           
          </Switch>
